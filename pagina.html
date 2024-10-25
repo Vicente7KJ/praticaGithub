@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplo de Breakpoints com Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+
+
+
+    .content-box {
+      border: 2px solid black; 
+      padding: 20px; 
+      margin-top: 20px;
+    }
+    .highlight {
+      background-color: #ffe599;
+      color: blue;
+      font-weight: bold;
+    }
+
+    
+  </style>
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="text-center">Modelos de Breakpoint</h1>
+    
+    <div class="row">
+      <div class="col-12 content-box">
+        <p class="lead">X-Small - <small>Ativado quando resolução for menor que 576px</small></p>
+        <p class="lead">Small - <small>Ativado quando resolução for maior que 576px e menor que 768px</small></p>
+        <p class="lead">Medium - <small>Ativado quando resolução for maior que 768px e menor que 992px</small></p>
+        <p class="lead highlight">Large - <small>Ativado quando resolução for maior que 992px e menor que 1200px</small></p>
+        <p class="lead">Extra Large - <small>Ativado quando resolução for maior que 1200px e menor que 1400px</small></p>
+        <p class="lead">Extra extra Large - <small>Ativado quando resolução for maior que 1400px</small></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
